@@ -1,5 +1,7 @@
 package com.ozzi.limestonemod;
 
+import com.ozzi.limestonemod.block.ModBlocks;
+import com.ozzi.limestonemod.item.ModItemGroups;
 import com.ozzi.limestonemod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -12,6 +14,9 @@ public class LimestoneMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

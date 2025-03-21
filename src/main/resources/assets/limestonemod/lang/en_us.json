@@ -1,3 +1,7 @@
 {
-  "item.limestonemod.limestone": "Limestone Dust"
+  "item.limestonemod.limestone": "Limestone Dust",
+
+  "block.limestonemod.limestone_block": "Block of Limestone",
+
+  "itemgroup.tutorialmod.limestone_blocks": "Limestone Blocks"
 }
