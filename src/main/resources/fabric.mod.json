@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "limestonemod",
+	"version": "${version}",
+	"name": "Limestone Mod",
+	"description": "This is a mod built to replicate redstone - except the redstone (now limestone) components are no longer constrained to just be placed on the floor!",
+	"authors": [
+		"0zzi"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/limestonemod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.ozzi.limestonemod.LimestoneMod"
+		],
+		"fabric-datagen": [
+			"com.ozzi.limestonemod.LimestoneModDataGenerator"
+		],
+		"client": [
+			"com.ozzi.limestonemod.LimestoneModClient"
+		]
+	},
+	"mixins": [
+		"limestonemod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
