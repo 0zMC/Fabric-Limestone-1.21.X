@@ -1,0 +1,6 @@
+{
+  "parent": "limestonemod:block/limestone_dust_side",
+  "textures": {
+    "line": "limestonemod:block/limestone_dust_line1"
+  }
+}
