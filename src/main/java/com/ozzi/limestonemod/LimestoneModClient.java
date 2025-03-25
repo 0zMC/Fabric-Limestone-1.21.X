@@ -11,6 +11,8 @@ public class LimestoneModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIMESTONE_WIRE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIMESTONE_TORCH, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIMESTONE_WALL_TORCH, RenderLayer.getCutout());
 
         ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> {
             if (tintIndex == 0) {

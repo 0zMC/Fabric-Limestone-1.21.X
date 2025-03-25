@@ -3,6 +3,8 @@
 
   "block.limestonemod.limestone_block": "Block of Limestone",
   "block.limestonemod.limestone_wire": "Limestone Wire",
+  "block.limestonemod.limestone_torch": "Limestone Torch",
+  "block.limestonemod.limestone_wall_torch": "Limestone Wall Torch",
 
   "itemgroup.tutorialmod.limestone_blocks": "Limestone Blocks"
 }

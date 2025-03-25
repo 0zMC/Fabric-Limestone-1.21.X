@@ -21,6 +21,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.LIMESTONE);
                         entries.add(ModBlocks.LIMESTONE_BLOCK);
+                        entries.add(ModBlocks.LIMESTONE_TORCH);
                     }).build());
 
     public static void registerItemGroups() {

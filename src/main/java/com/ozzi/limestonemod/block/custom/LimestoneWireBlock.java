@@ -7,6 +7,7 @@ import com.mojang.serialization.MapCodec;
 import java.util.Map;
 import java.util.Set;
 
+import com.ozzi.limestonemod.block.ModBlocks;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.WireConnection;
 import net.minecraft.entity.player.PlayerEntity;
@@ -420,7 +421,7 @@ public class LimestoneWireBlock extends Block {
     }
 
     protected static boolean connectsTo(BlockState state, @Nullable Direction dir) {
-        if (state.isOf(Blocks.REDSTONE_WIRE)) {
+        if (state.isOf(ModBlocks.LIMESTONE_WIRE)) {
             return true;
         } else if (state.isOf(Blocks.REPEATER)) {
             Direction direction = state.get(RepeaterBlock.FACING);

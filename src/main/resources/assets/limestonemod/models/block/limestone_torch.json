@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_torch",
+  "textures": {
+    "torch": "limestonemod:block/limestone_torch_on"
+  }
+}

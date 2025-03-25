@@ -17,5 +17,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/limestone_wire"
+  "random_sequence": "limestonemod:block/limestone_wire"
 }
