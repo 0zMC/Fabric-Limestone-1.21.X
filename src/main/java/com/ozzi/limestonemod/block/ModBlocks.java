@@ -4,6 +4,7 @@ import com.ozzi.limestonemod.LimestoneMod;
 import com.ozzi.limestonemod.block.custom.LimestoneBlock;
 import com.ozzi.limestonemod.block.custom.LimestoneTorchBlock;
 import com.ozzi.limestonemod.block.custom.LimestoneWireBlock;
+import com.ozzi.limestonemod.block.custom.WallLimestoneTorchBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
 import net.minecraft.block.piston.PistonBehavior;
@@ -31,7 +32,7 @@ public class ModBlocks {
             )
     );
     public static final Block LIMESTONE_WALL_TORCH = registerBlock("limestone_wall_torch",
-            new WallRedstoneTorchBlock(AbstractBlock.Settings.create().noCollision().breakInstantly().luminance(createLightLevelFromLitBlockState(7)).sounds(BlockSoundGroup.WOOD).dropsLike(LIMESTONE_TORCH).pistonBehavior(PistonBehavior.DESTROY)
+            new WallLimestoneTorchBlock(AbstractBlock.Settings.create().noCollision().breakInstantly().luminance(createLightLevelFromLitBlockState(7)).sounds(BlockSoundGroup.WOOD).dropsLike(LIMESTONE_TORCH).pistonBehavior(PistonBehavior.DESTROY)
             )
     );
 
